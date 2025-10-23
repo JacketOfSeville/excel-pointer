@@ -1,0 +1,35 @@
+{
+    "name": "jacketofseville/excel-pointer",
+    "description": "Excel pointer utility for XLS/XLSX navigation with PHP Spreadsheet packages.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius Da Cruz Krummenauer",
+            "email": "viniciuskrummenauer9@gmail.com"
+        }
+    ],
+    "keywords": [
+        "excel", "pointer", "spreadsheet", "navigation", "php"
+    ],
+    "homepage": "https://github.com/JacketOfSeville/excel-pointer",
+    "support": {
+        "issues": "https://github.com/JacketOfSeville/excel-pointer/issues"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExcelPointer\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/ExcelPointerTest.php"
+    },
+    "minimum-stability": "stable"
+}
